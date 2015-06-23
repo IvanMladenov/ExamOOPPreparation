@@ -1,0 +1,6 @@
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.exe.config
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.csprojResolveAssemblyReference.cache
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.exe
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\bin\Debug\MyTunesShop.pdb
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.exe
+E:\Fundamentials\ExamOOPPreparation\MyTunesShop-Skeleton\MyTunesShop\obj\Debug\MyTunesShop.pdb
