@@ -1,0 +1,6 @@
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\bin\Debug\MusicShop.exe.config
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\bin\Debug\MusicShop.exe
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\bin\Debug\MusicShop.pdb
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\obj\Debug\MusicShopManager.csprojResolveAssemblyReference.cache
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\obj\Debug\MusicShop.exe
+E:\Fundamentials\ExamOOPPreparation\MusicShopManager-Skeleton\MusicShopManager\obj\Debug\MusicShop.pdb
