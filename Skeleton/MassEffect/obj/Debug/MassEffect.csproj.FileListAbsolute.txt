@@ -1,0 +1,6 @@
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\bin\Debug\MassEffect.exe.config
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\bin\Debug\MassEffect.exe
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\bin\Debug\MassEffect.pdb
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.exe
+C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.pdb
