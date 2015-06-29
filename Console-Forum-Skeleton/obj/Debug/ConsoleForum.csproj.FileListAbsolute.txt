@@ -1,0 +1,6 @@
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\bin\Debug\ConsoleForum.exe.config
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\bin\Debug\ConsoleForum.exe
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\bin\Debug\ConsoleForum.pdb
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\obj\Debug\ConsoleForum.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\obj\Debug\ConsoleForum.exe
+C:\Users\Ivan\Desktop\ExamOOP\Console-Forum-Skeleton\obj\Debug\ConsoleForum.pdb
