@@ -1,0 +1,6 @@
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.exe.config
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.exe
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\bin\Debug\NightlifeEntertainment.pdb
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.exe
+C:\Users\Ivan\Desktop\TemporaryExamFolder\NightlifeEntertainment-Skeleton\NightlifeEntertainment\obj\Debug\NightlifeEntertainment.pdb
