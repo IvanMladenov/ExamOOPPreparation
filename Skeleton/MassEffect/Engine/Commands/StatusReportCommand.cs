@@ -3,6 +3,7 @@
     using System;
     using System.Linq;
 
+    using MassEffect.Exceptions;
     using MassEffect.Interfaces;
 
     public class StatusReportCommand : Command
@@ -15,11 +16,11 @@
         public override void Execute(string[] commandArgs)
         {
             string name = commandArgs[1];
-            IStarship ship = null;
-            ship = this.GameEngine.Starships.FirstOrDefault(x => x.Name == name);
+            var ship = this.GameEngine.Starships.FirstOrDefault(x => x.Name == name);
+
             if (ship == null)
             {
-                throw new NullReferenceException("Ship not exist");
+                throw new ShipException(Messages.NoSuchShipInStarSystem);
             }
             Console.WriteLine(ship.ToString());
         }

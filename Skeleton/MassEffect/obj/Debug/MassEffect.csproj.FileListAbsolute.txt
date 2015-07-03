@@ -4,3 +4,9 @@ C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\bin\Debug\MassEffect.pdb
 C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.exe
 C:\Users\Ivan\Desktop\ExamOOP\Skeleton\MassEffect\obj\Debug\MassEffect.pdb
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\bin\Debug\MassEffect.exe.config
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\obj\Debug\MassEffect.exe
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\obj\Debug\MassEffect.pdb
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\bin\Debug\MassEffect.exe
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\bin\Debug\MassEffect.pdb
+E:\Fundamentials\ExamOOPPreparation\Skeleton\MassEffect\obj\Debug\MassEffect.csprojResolveAssemblyReference.cache

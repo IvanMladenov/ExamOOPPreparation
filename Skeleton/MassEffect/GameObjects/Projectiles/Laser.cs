@@ -11,15 +11,12 @@
 
         public override void Hit(IStarship ship)
         {
-            if (ship.Shields > this.Damage)
+            int remainderDamage = this.Damage - ship.Shields;
+            ship.Shields -= this.Damage;
+
+            if (remainderDamage > 0)
             {
-                ship.Shields -= this.Damage;
-            }
-            else
-            {
-                int damageLeft = this.Damage - ship.Shields;
-                ship.Shields = 0;
-                ship.Health -= damageLeft;
+                ship.Health -= remainderDamage;
             }
         }
     }

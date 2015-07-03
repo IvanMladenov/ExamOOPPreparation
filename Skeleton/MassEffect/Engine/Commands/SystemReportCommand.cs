@@ -18,21 +18,19 @@
         {
             string name = commandArgs[1];
 
-            IEnumerable<IStarship> collectionOfOrderedShips =
-                this.GameEngine.Starships.Where(x => x.Location.Name == name)
-                    .Where(x => x.Health > 0)
-                    .OrderByDescending(x => x.Health)
-                    .ThenByDescending(x => x.Shields);
+            var location = this.GameEngine.Galaxy.GetStarSystemByName(name);
+
+            var shipsInSystem = this.GameEngine.Starships.Where(x => x.Location == location);
+
+            var collectionOfOrderedShips = shipsInSystem.Where(x => x.Health > 0)
+                .OrderByDescending(x => x.Health)
+                .ThenByDescending(x=>x.Shields);
 
             var sb = new StringBuilder();
             sb.AppendLine("Intact ships:");
             sb.AppendLine(collectionOfOrderedShips.Any() ? string.Join("\n", collectionOfOrderedShips) : "N/A");
 
-            var collectionOfDestroyedShips =
-                this.GameEngine.Starships.Where(x => x.Location.Name == name)
-                    .Where(x => x.Health == 0)
-                    .OrderByDescending(x => x.Health)
-                    .ThenByDescending(x => x.Shields);
+            var collectionOfDestroyedShips = shipsInSystem.Where(x => x.Health == 0).OrderBy(x=>x.Name);
 
             sb.AppendLine("Destroyed ships:");
             sb.Append(collectionOfDestroyedShips.Any() ? string.Join("\n", collectionOfDestroyedShips) : "N/A");

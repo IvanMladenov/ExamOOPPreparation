@@ -35,8 +35,7 @@
             var sb = new StringBuilder(base.ToString());
             if (this.Health > 0)
             {
-                sb.AppendLine();
-                sb.Append(string.Format("-Projectiles fired: {0}", this.projectilesFired.ToString()));
+                sb.Append(string.Format("{1}-Projectiles fired: {0}", this.projectilesFired.ToString(),Environment.NewLine));
             }
 
             return sb.ToString();

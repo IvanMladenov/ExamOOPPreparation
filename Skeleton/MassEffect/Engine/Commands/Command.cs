@@ -28,7 +28,7 @@
         {
             if (firstStarship.Location.Name != secondStarship.Location.Name)
             {
-                throw new LocationOutOfRangeException(Messages.NoSuchShipInStarSystem);
+                throw new ShipException(Messages.NoSuchShipInStarSystem);
             }
         }
     }

@@ -3,6 +3,7 @@
     using System;
     using System.Linq;
 
+    using MassEffect.Exceptions;
     using MassEffect.Interfaces;
 
     public class AttackCommand : Command
@@ -16,12 +17,17 @@
         {
             string attackerName = commandArgs[1];
             string targetName = commandArgs[2];
-
-            IStarship attackerShip = null;
-            IStarship targetShip = null;
             
-            attackerShip = this.GameEngine.Starships.FirstOrDefault(x => x.Name == attackerName);
-            targetShip = this.GameEngine.Starships.FirstOrDefault(x => x.Name == targetName);
+            var attackerShip = this.GameEngine.Starships.FirstOrDefault(x => x.Name == attackerName);
+            var targetShip = this.GameEngine.Starships.FirstOrDefault(x => x.Name == targetName);
+
+            this.ValidateAlive(attackerShip);
+            this.ValidateAlive(targetShip);
+
+            if (attackerShip.Location != targetShip.Location)
+            {
+                throw new ShipException(Messages.NoSuchShipInStarSystem);
+            }
 
             this.ProcessStarshipBattle(attackerShip, targetShip);
         }
